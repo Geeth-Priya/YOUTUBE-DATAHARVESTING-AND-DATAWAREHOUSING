@@ -16,11 +16,10 @@ from PIL import Image
 from streamlit_lottie import st_lottie
 import seaborn as sb
 import matplotlib.pyplot as plt
-import matplotlib.ticker as ticker
+
 
 #API Key Connection
 def Api_Connect():
-    api_key="AIzaSyCTOGgxeY61zcxzU-FB8sL8rMkau54MNV8"
     api_service_name = "youtube"
     api_version = "v3"
     client_secrets_file = "YOUR_CLIENT_SECRET_FILE.json"
@@ -162,7 +161,7 @@ def connect_to_mysql():
         mydb = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Vigi@123",
+        password="xyz",
         auth_plugin="mysql_native_password",
         database="project"
         )
